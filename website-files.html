@@ -4,49 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beyond the Cloud IT Services</title>
+    <title>Beyond the Cloud IT</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <nav class="navbar">
+        <div class="container">
             <div class="logo">Beyond the Cloud IT</div>
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>IT Solutions for Your Business</h1>
+            <div class="service-types">
+                <span>Complete</span> • 
+                <span>Direct</span> • 
+                <span>Plus</span> • 
+                <span>Fuse</span>
+            </div>
+            <a href="#services" class="cta-button">Explore Our Services</a>
+        </div>
     </header>
 
-    <main>
-        <section id="hero">
-            <h1>IT Solutions for Your Business</h1>
-            <p>Complete. Direct. Plus. Fuse.</p>
-        </section>
-
-        <section id="services">
+    <section id="services" class="services">
+        <div class="container">
             <h2>Our Services</h2>
-            <div class="service-cards">
-                <div class="card" id="complete">
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-clock"></i>
                     <h3>Complete</h3>
                     <p>Time & Material Based Support</p>
+                    <ul>
+                        <li>Flexible Hours</li>
+                        <li>Pay As You Go</li>
+                        <li>24/7 Support</li>
+                    </ul>
                 </div>
-                <div class="card" id="direct">
+
+                <div class="service-card">
+                    <i class="fas fa-wallet"></i>
                     <h3>Direct</h3>
                     <p>Prepaid IT Services</p>
+                    <ul>
+                        <li>Prepaid Blocks</li>
+                        <li>Priority Support</li>
+                        <li>Cost Effective</li>
+                    </ul>
                 </div>
-                <div class="card" id="plus">
+
+                <div class="service-card">
+                    <i class="fas fa-shield-alt"></i>
                     <h3>Plus</h3>
                     <p>Fixed Fee IT Support</p>
+                    <ul>
+                        <li>Predictable Costs</li>
+                        <li>Comprehensive Coverage</li>
+                        <li>Dedicated Support</li>
+                    </ul>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <footer>
-        <p>© 2024 Beyond the Cloud IT. All rights reserved.</p>
+        <div class="container">
+            <p>© 2024 Beyond the Cloud IT. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
