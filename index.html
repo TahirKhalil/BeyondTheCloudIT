@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Your Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Enhanced Website</title>
+    <!-- Link the CSS file -->
     <link rel="stylesheet" href="style.css">
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a test page.</p>
+    <header class="main-header">
+        <div class="container">
+            <h1>Welcome to My Website</h1>
+            <p>Your one-stop destination for awesome content!</p>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is a test page to showcase how you can build a simple but beautiful website using HTML and CSS.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>Explore our wide range of services tailored to meet your needs.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Reach out to us anytime at <a href="mailto:test@example.com">test@example.com</a>.</p>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
